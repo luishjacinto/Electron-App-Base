@@ -1,0 +1,9 @@
+#app-bar{
+    -webkit-app-region: drag;
+}
+
+#app-bar span{
+    cursor: pointer;
+    padding: 0.5rem;
+    -webkit-app-region: no-drag;
+}

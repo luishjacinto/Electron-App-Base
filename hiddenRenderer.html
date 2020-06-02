@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BACKGROUND RENDERER</title>
+  </head>
+  <body>
+    <script>
+      const electron = require('electron');
+      const ipcWorker = electron.ipcRenderer;
+
+      ipcWorker.send('message-from-worker', {
+          payload: 'IPC message'
+      });
+    </script>
+  </body>
+</html>
+
+

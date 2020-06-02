@@ -1,0 +1,29 @@
+{
+  "name": "base-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  },
+  "author": {
+    "name": "Luis Henrique Jacinto da Silva",
+    "github": "https://github.com/luishjacinto"
+  }
+}
